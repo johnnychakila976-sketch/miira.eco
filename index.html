@@ -3,7 +3,7 @@
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Logo Miira.Eco</title>
+  <title>Miira.Eco</title>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,13 +30,10 @@
  </head>
  <body class="h-full">
   <div id="app-wrapper" class="w-full h-full flex items-center justify-center" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 50%, #d1fae5 100%);">
-   <div class="text-center p-8">
-    <!-- Logo Principal -->
-    <div class="flex flex-col items-center gap-6">
-     <!-- Icône du logo -->
+   <div class="text-center p-8"><!-- Logo Principal -->
+    <div class="flex flex-col items-center gap-6"><!-- Icône du logo -->
      <div class="relative">
-      <svg width="120" height="120" viewbox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-       <!-- Cercle de fond avec dégradé --> <defs>
+      <svg width="120" height="120" viewbox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><!-- Cercle de fond avec dégradé --> <defs>
         <lineargradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
          <stop offset="0%" style="stop-color:#10b981" />
          <stop offset="100%" style="stop-color:#059669" />
@@ -45,8 +42,7 @@
          <stop offset="0%" style="stop-color:#34d399" />
          <stop offset="100%" style="stop-color:#10b981" />
         </lineargradient>
-       </defs> <!-- Cercle principal --> <circle cx="60" cy="60" r="55" fill="url(#bgGradient)" opacity="0.15" /> <circle cx="60" cy="60" r="45" fill="url(#bgGradient)" opacity="0.25" /> <!-- Feuille stylisée - forme de M abstrait --> <g class="leaf-animate" style="transform-origin: center;">
-        <!-- Première feuille (gauche) -->
+       </defs> <!-- Cercle principal --> <circle cx="60" cy="60" r="55" fill="url(#bgGradient)" opacity="0.15" /> <circle cx="60" cy="60" r="45" fill="url(#bgGradient)" opacity="0.25" /> <!-- Feuille stylisée - forme de M abstrait --> <g class="leaf-animate" style="transform-origin: center;"><!-- Première feuille (gauche) -->
         <path d="M35 75 Q35 45 50 35 Q55 50 50 70 Q45 80 35 75Z" fill="url(#leafGradient)" /> <!-- Deuxième feuille (centre-gauche) -->
         <path d="M48 78 Q50 40 60 28 Q65 45 62 72 Q58 82 48 78Z" fill="#10b981" /> <!-- Troisième feuille (centre-droit) -->
         <path d="M58 78 Q60 40 70 28 Q75 45 72 72 Q68 82 58 78Z" fill="url(#leafGradient)" /> <!-- Quatrième feuille (droite) -->
@@ -55,25 +51,21 @@
       </svg>
      </div><!-- Texte du logo -->
      <div class="flex flex-col items-center">
-      <div class="flex items-baseline gap-0">
-       <span id="brand-name" class="text-5xl font-bold tracking-tight" style="font-family: 'Quicksand', sans-serif; color: #065f46;"> Miira </span> <span id="brand-dot" class="text-5xl font-bold dot-pulse" style="font-family: 'Quicksand', sans-serif; color: #10b981;">.</span> <span id="brand-eco" class="text-5xl font-semibold" style="font-family: 'Quicksand', sans-serif; color: #10b981;">Eco</span>
+      <div class="flex items-baseline gap-0"><span id="brand-name" class="text-5xl font-bold tracking-tight" style="font-family: 'Quicksand', sans-serif; color: #065f46;"> Miira </span> <span id="brand-dot" class="text-5xl font-bold dot-pulse" style="font-family: 'Quicksand', sans-serif; color: #10b981;">.</span> <span id="brand-eco" class="text-5xl font-semibold" style="font-family: 'Quicksand', sans-serif; color: #10b981;">Eco</span>
       </div><!-- Slogan -->
       <p id="tagline" class="mt-3 text-lg tracking-widest uppercase" style="font-family: 'Quicksand', sans-serif; color: #059669; letter-spacing: 0.25em;">Pour un avenir durable</p>
      </div><!-- Ligne décorative -->
      <div class="flex items-center gap-3 mt-2">
       <div class="h-px w-16 bg-gradient-to-r from-transparent to-emerald-400"></div>
-      <svg width="12" height="12" viewbox="0 0 12 12" fill="none">
-       <path d="M6 0 Q8 4 6 8 Q4 4 6 0Z" fill="#10b981" />
+      <svg width="12" height="12" viewbox="0 0 12 12" fill="none"><path d="M6 0 Q8 4 6 8 Q4 4 6 0Z" fill="#10b981" />
       </svg>
       <div class="h-px w-16 bg-gradient-to-l from-transparent to-emerald-400"></div>
      </div><!-- Bouton de messagerie --> <button id="message-btn" class="mt-8 px-8 py-3 rounded-full font-semibold text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); font-family: 'Quicksand', sans-serif;"> 💬 Discuter avec nous </button>
      <p class="text-sm text-emerald-600 mt-2" style="font-family: 'Quicksand', sans-serif;">Nous répondons généralement en moins d'une heure</p>
     </div><!-- Variantes du logo (miniatures) -->
-    <div class="mt-12 flex justify-center gap-8">
-     <!-- Version compacte -->
+    <div class="mt-12 flex justify-center gap-8"><!-- Version compacte -->
      <div class="flex flex-col items-center gap-2 p-4 rounded-2xl" style="background: rgba(255,255,255,0.7);">
-      <svg width="50" height="50" viewbox="0 0 120 120" fill="none">
-       <circle cx="60" cy="60" r="50" fill="#10b981" /> <g fill="white">
+      <svg width="50" height="50" viewbox="0 0 120 120" fill="none"><circle cx="60" cy="60" r="50" fill="#10b981" /> <g fill="white">
         <path d="M35 75 Q35 45 50 35 Q55 50 50 70 Q45 80 35 75Z" />
         <path d="M48 78 Q50 40 60 28 Q65 45 62 72 Q58 82 48 78Z" opacity="0.8" />
         <path d="M58 78 Q60 40 70 28 Q75 45 72 72 Q68 82 58 78Z" />
@@ -82,13 +74,11 @@
       </svg><span class="text-xs text-emerald-700" style="font-family: 'Quicksand', sans-serif;">Icône</span>
      </div><!-- Version monochrome -->
      <div class="flex flex-col items-center gap-2 p-4 rounded-2xl" style="background: rgba(255,255,255,0.7);">
-      <div class="flex items-baseline">
-       <span class="text-2xl font-bold" style="font-family: 'Quicksand', sans-serif; color: #065f46;">Miira</span> <span class="text-2xl font-bold" style="font-family: 'Quicksand', sans-serif; color: #065f46;">.</span> <span class="text-2xl font-semibold" style="font-family: 'Quicksand', sans-serif; color: #065f46;">Eco</span>
+      <div class="flex items-baseline"><span class="text-2xl font-bold" style="font-family: 'Quicksand', sans-serif; color: #065f46;">Miira</span> <span class="text-2xl font-bold" style="font-family: 'Quicksand', sans-serif; color: #065f46;">.</span> <span class="text-2xl font-semibold" style="font-family: 'Quicksand', sans-serif; color: #065f46;">Eco</span>
       </div><span class="text-xs text-emerald-700" style="font-family: 'Quicksand', sans-serif;">Texte</span>
      </div><!-- Version sombre -->
      <div class="flex flex-col items-center gap-2 p-4 rounded-2xl" style="background: #065f46;">
-      <div class="flex items-baseline">
-       <span class="text-2xl font-bold" style="font-family: 'Quicksand', sans-serif; color: #ffffff;">Miira</span> <span class="text-2xl font-bold" style="font-family: 'Quicksand', sans-serif; color: #6ee7b7;">.</span> <span class="text-2xl font-semibold" style="font-family: 'Quicksand', sans-serif; color: #6ee7b7;">Eco</span>
+      <div class="flex items-baseline"><span class="text-2xl font-bold" style="font-family: 'Quicksand', sans-serif; color: #ffffff;">Miira</span> <span class="text-2xl font-bold" style="font-family: 'Quicksand', sans-serif; color: #6ee7b7;">.</span> <span class="text-2xl font-semibold" style="font-family: 'Quicksand', sans-serif; color: #6ee7b7;">Eco</span>
       </div><span class="text-xs text-emerald-300" style="font-family: 'Quicksand', sans-serif;">Fond sombre</span>
      </div>
     </div>
@@ -100,13 +90,17 @@
      <h2 class="text-2xl font-bold" style="font-family: 'Quicksand', sans-serif; color: #065f46;">Nous contacter</h2><button id="close-modal" class="text-gray-500 hover:text-gray-700 text-2xl">×</button>
     </div>
     <form id="contact-form" class="space-y-4">
-     <div><label for="name" class="block text-sm font-semibold mb-2" style="color: #065f46; font-family: 'Quicksand', sans-serif;">Nom</label> <input type="text" id="name" name="name" required class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-emerald-500" style="border-color: #d1fae5; font-family: 'Quicksand', sans-serif;" placeholder="Votre nom">
+     <div>
+      <label for="name" class="block text-sm font-semibold mb-2" style="color: #065f46; font-family: 'Quicksand', sans-serif;">Nom</label> <input type="text" id="name" name="name" required class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-emerald-500" style="border-color: #d1fae5; font-family: 'Quicksand', sans-serif;" placeholder="Votre nom">
      </div>
-     <div><label for="phone" class="block text-sm font-semibold mb-2" style="color: #065f46; font-family: 'Quicksand', sans-serif;">Numéro de téléphone</label> <input type="tel" id="phone" name="phone" required class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-emerald-500" style="border-color: #d1fae5; font-family: 'Quicksand', sans-serif;" placeholder="+33 6 XX XX XX XX">
+     <div>
+      <label for="phone" class="block text-sm font-semibold mb-2" style="color: #065f46; font-family: 'Quicksand', sans-serif;">Numéro de téléphone</label> <input type="tel" id="phone" name="phone" required class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-emerald-500" style="border-color: #d1fae5; font-family: 'Quicksand', sans-serif;" placeholder="+33 6 XX XX XX XX">
      </div>
-     <div><label for="product_name" class="block text-sm font-semibold mb-2" style="color: #065f46; font-family: 'Quicksand', sans-serif;">Nom du produit</label> <input type="text" id="product_name" name="product_name" required class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-emerald-500" style="border-color: #d1fae5; font-family: 'Quicksand', sans-serif;" placeholder="Ex: Miira Eco Pro...">
+     <div>
+      <label for="product_name" class="block text-sm font-semibold mb-2" style="color: #065f46; font-family: 'Quicksand', sans-serif;">Nom du produit</label> <input type="text" id="product_name" name="product_name" required class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-emerald-500" style="border-color: #d1fae5; font-family: 'Quicksand', sans-serif;" placeholder="Ex: Miira Eco Pro...">
      </div>
-     <div><label for="message" class="block text-sm font-semibold mb-2" style="color: #065f46; font-family: 'Quicksand', sans-serif;">Message</label> <textarea id="message" name="message" required rows="4" class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-emerald-500 resize-none" style="border-color: #d1fae5; font-family: 'Quicksand', sans-serif;" placeholder="Votre message..."></textarea>
+     <div>
+      <label for="message" class="block text-sm font-semibold mb-2" style="color: #065f46; font-family: 'Quicksand', sans-serif;">Message</label> <textarea id="message" name="message" required rows="4" class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:border-emerald-500 resize-none" style="border-color: #d1fae5; font-family: 'Quicksand', sans-serif;" placeholder="Votre message..."></textarea>
      </div><button type="submit" class="w-full py-3 rounded-lg font-semibold text-white transition-all duration-200 hover:shadow-lg" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); font-family: 'Quicksand', sans-serif;"> Envoyer le message </button>
      <div id="form-message" class="text-center text-sm p-2 rounded hidden" style="font-family: 'Quicksand', sans-serif;"></div>
     </form>
@@ -272,5 +266,5 @@
       }
     });
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d7b6b5db49473f0',t:'MTc3MjczNzgxMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d7b7b83e066f48a',t:'MTc3MjczODQ3My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
